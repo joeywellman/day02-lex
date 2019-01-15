@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Blog</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<!-- ## Lightning Exercise 1
+- Create a new file called `index.html`
+- In your `index.html` file, use the shift + ! shortcut to generate boilerpalte HTML.
+- Create the following elements in your HTML file:
+    - A `nav` element
+        - Inside the `nav` element, create four `a` elements. Give each `a` element some text that you might see in a nav bar. "Home", "About Me", etc. You can just give each href attribute a value of "#" for the moment. -->
+
+
+<!-- Navbar component -->
+<nav class="navbar">
+<!-- These are links to the Navbar -->
+    <a href="#" class="navbar_link">Home</a>
+    <!-- Hash represents where link would normally be, linking to other HRML Files. -->
+    <a href="aboutme.html" class="navbar_link">About Me</a>
+    <a href="#" class="navbar_link">My Projects</a>
+    <a href="#" class="navbar_link">Contact Me</a>
+</nav>
+    <!-- Blog Article Post Component -->
+<article class="block-article">
+
+        <!-- Blog Article Header Element of Blog Post Component -->
+        <header class="block-article_header">
+            <h1>First Week at NSS</h1>
+        </header>
+    
+        <!-- Blog Article Content Element of Blog Post Component -->
+        <section class="block-article_content--highlighted">
+            Saw some amazing projects from the previous
+            cohort. I'm nervous that I won't be able to do
+            that in 3 months, but the instructors keep telling
+            me that I will.
+        </section>
+    
+        <!-- Blog Article Footer Element (Copyright) of Blog Post Component -->
+        <footer class="block-article_footer">
+        By Johhny Q. Student &copy; 2018
+        </footer>
+    </article>
+    
+    <!-- Blog Article Sidebar Component -->
+    <aside class="sidebar">
+        <!-- Blog Article Header Element of Blog Post Component -->
+        <header class="header header--medium sidebar__header">
+            <h2>Promoted Articles</h2>
+        </header>
+    
+        <!-- Blog Article List Element of Blog Post Component -->
+        <ul  class="sidebar__items">
+            <li>First Week at NSS</li>
+            <li>Starting NSS Soon</li>
+            <li>I Got Accepted!</li>
+            <li>Thinking of Attending a Bootcamp</li>
+        </ul>
+
+    </aside>
+    <footer class="footer">
+        <h4 class="footer-text">By me, a great coder</h4>
+    </footer>
+
+</body>
+</html>
